@@ -5,7 +5,7 @@ variable "public_key" {
 
 variable "region" {
   type        = string
-  description = "Path to the Public ssh key"
+  description = "AWS region"
 }
 
 variable "project_name" {
@@ -16,10 +16,10 @@ variable "project_name" {
 # Networking vars
 variable "vpc_cidr" {
   type        = string
-  description = "Project name"
+  description = "VPC CIDR"
 }
 
 variable "availability_zone" {
   type        = string
-  description = "Project name"
+  description = "availability zone"
 }
